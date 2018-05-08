@@ -1,0 +1,137 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+  opacity: 1;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #679289;
+  border-bottom: 5px solid #679289;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+/*navigation*/
+.topnav {
+  width: 100%;
+  border: auto;
+  padding:20px;
+  border-top: 5px solid #679289;
+  border-bottom: 5px solid #679289;
+  background-color: #679289;
+}
+
+.image1{
+  position:absolute;
+  top:-5px;
+  right:1000px;
+}
+header{
+  position:relative;
+}
+/*links*/
+a:hover{
+  background-color: #071E22;
+  text-decoration: none;
+}
+a:active{
+  text-decoration: underline;
+}
+a:visited{
+  color: #679289;
+}
+a:link{
+  color:#026C7C;
+}
+a:focus{
+  outline:none;
+  color:#679289;
+}
+a[target="_blank"]:after{
+  content:("external");
+}
+  /*top nav*/
+
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a{
+  float:left;
+  display: block;
+  color:#f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover{
+  color: #EE2E31;
+  background-color: #ddd;
+}
+.active{
+  background-color: #4caf50;
+  color: white;
+}
+
+
+.back_img{
+  position: absolute;
+  background-image:url("gown.gif");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  top: 310px;
+  left: 400px;
+  z-index: -5;
+  opacity: 0.5;
+}
+h1,h2,h3{
+  font:20px'Playfair Display', serif;
+  letter-spacing: 3px;
+}
+p{
+    font:14px 'Raleway', sans-serif;
+}
+p:nth-of-type(1){
+para-indent:20px;
+}
+
+.text_indent{
+  text-indent: 20px;
+}
+a[href*="http"] {
+background: url("external.png") no-repeat 100% 0;
+background-size: 16px 16px;
+padding-right: 19px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Slabo+27px');
+.p1,.p2{
+
+  font-family: 'Slabo 27px', serif,
+  : 'Indie Flower', cursive,
+   'Indie Flower', cursive,
+'Merriweather', serif,
+'Playfair Display', serif,
+ 'Slabo 27px', serif,
+ 'Black Han Sans', sans-serif;
+}
+h1{
+   font-family: 'Merriweather', serif
+   'Indie Flower', cursive,
+    'Indie Flower', cursive ,
+ 'Merriweather', serif,
+  'Playfair Display', serif,
+  'Slabo 27px', serif,
+'Black Han Sans', sans-serif;
+ }
+h2{
+  font-family: 'Playfair Display', serif ,'Indie Flower', cursive, 'Indie Flower', cursive ,'Merriweather', serif ,'Playfair Display', serif, 'Slabo 27px', serif, 'Black Han Sans', sans-serif;
+}
+.p3{
+  font-family: 'Indie Flower', cursive,
+   'Indie Flower', cursive,
+'Merriweather', serif,
+ 'Slabo 27px', serif,
+ 'Black Han Sans', sans-serif,
+ 'Playfair Display', serif,;
+}
+.p4{
+  font-family: 'Indie Flower', cursive,
+ 'Merriweather', serif,
+ 'Playfair Display', serif,
+ 'Slabo 27px', serif;
+}

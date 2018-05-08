@@ -1,0 +1,61 @@
+.box1,.box2,.box3,.box4{
+height:200px;
+width:200px;
+display:inline-block;
+margin:20px;
+border: 20px solid black;
+}
+
+.box1{
+border:2px solid black;
+padding:50px;
+background-color:red;
+float:left;
+}
+.box2{
+border:2px solid black;
+padding:50px;
+background-color:green;
+float:left;
+}
+.box3{
+border:2px solid black;
+padding:50px;
+background-color:blue;
+float:left;
+}
+.box4{
+border:2px solid black;
+padding:50px;
+background-color:orange;
+float:left;
+}
+/*cursor hover*/
+.box1:hover{
+  background-color: blue;
+}
+.box2:hover{
+  background-color: red;
+}
+.box3:hover{
+  background-color: orange;
+  width:600px;
+}
+.box4:hover{
+    background-color: green;
+    width:50px;
+}
+/*active click*/
+.box1:active{
+    background-color:#A2FAA3;
+}
+.box2:active{
+    background-color:#92C9B1;
+}
+.box3:active{
+    background-color:#571F4E;
+}
+.box4:active{
+    background-color:#FF99C8;
+}
+/*transaction*/

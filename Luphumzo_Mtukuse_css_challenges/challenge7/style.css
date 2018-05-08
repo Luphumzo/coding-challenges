@@ -1,0 +1,49 @@
+.speech{
+  border: black;
+  padding:20px;
+  background-color: darkcyan;
+  width:200px;
+  height: 100px;
+  border-radius: 30px;
+  position: relative;
+ left:50%;
+ top:250px;
+ text-align: center;
+ line-height: 100px;
+ box-shadow: 2px 2px 4px #888;
+}
+ .speech:after {
+   content: '';
+   position: absolute;
+   width: 0;
+   height: 0;
+   left: 30px;
+   top: 130px;
+   border: 25px solid;
+   border-color: darkcyan transparent transparent darkcyan;
+}
+
+
+}
+/* p.speech; {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #658398;
+  border: 8px solid #666;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px #888;
+}
+
+p.speech:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  top: 100px;
+  border: 25px solid;
+  border-color: #666 transparent transparent #666;
+} */
